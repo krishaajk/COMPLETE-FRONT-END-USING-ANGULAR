@@ -1,0 +1,70 @@
+/* You can add global styles to this file, and also import other style files */
+.homepage{
+    color:aqua;
+    text-align: center;
+    background-color: brown;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.example-spacer{
+  flex:1 1 auto;
+}
+.example-icon{
+  padding:0 14px;
+}
+.example-label {
+    display: table-cell;
+    width: 490px;
+  }
+  .toolbar {
+    padding: 18px;
+  }
+  .mat-drawer-container {
+    background-color: yellowgreen;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: center;
+    z-index: 1;
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+    display: block;
+    overflow: hidden;
+}
+.mat-drawer {
+    background-color: darkgray;
+    color: #fff;
+}
+.mat-toolbar {
+  background:black;
+  color: #fff;
+}
+.mat-elevation-z5{
+  position: relative;
+  z-index: 2;
+}
+.mat-sidenav a:hover{
+  color:blueviolet;
+}
+.nav-list{
+  color:darkblue;
+}
+.krishna{
+  margin: 90px;
+  height: 50px;
+}
+.krishna:hover{
+  margin:30px;
+}
+.dashboard{
+  background-image:"./assets/KRISHNA.jpg";
+  background-repeat: no-repeat;
+  text-align: center;
+  color: black;
+}
+.TimeandDate{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+  text-align: center;
+  color: black;
+}
